@@ -35,11 +35,7 @@ int main(){
 	
 	// Get current clock time.
 	clock_gettime(CLOCK_MONOTONIC, &start); 
-
 	
-		// Get current clock time.
-		clock_gettime(CLOCK_MONOTONIC, &start_s); 
-		
 	primeNumbers = malloc(pUpperLimit *sizeof(int)); // dynamically allocate size to the pointer variable
 	primeCounter = 0;
 	
